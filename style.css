@@ -1,0 +1,56 @@
+html {
+    display: grid;
+    place-items: center;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(151, 31, 191), rgb(10, 81, 235));
+    font-family: Helvetica, sans-serif;
+  }
+
+h1 {
+    color: white;
+    font-size: 5em;
+    text-align: center;
+    text-shadow: 0 0 8px rgb(255, 255, 255);
+}
+
+button {
+    font-size: 2em;
+    padding-top: 1.8em;
+    padding-bottom: 1.8em;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-weight:900;
+    border: 0em;
+    background-color: rgb(233, 233, 233);
+    margin: 0.2em;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    border-radius: 10%;
+    color: rgb(45, 45, 45);
+    text-shadow: 0 0 1.5px  rgb(45, 45, 45);
+}
+
+button:hover {
+    box-shadow: 0 0 14px rgb(255, 255, 255);
+}
+
+div {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 1em;
+    line-height: 1.5em;
+    text-shadow: 0 0 2px rgb(233, 233, 233);
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    text-align: center;
+    text-shadow: 0 0 1px rgb(233, 233, 233);
+  }
