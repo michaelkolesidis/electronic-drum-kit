@@ -14,7 +14,7 @@ const congaButton = document.querySelector("#congaButton");
 
 // Kick
 let kickPlay = function (e) {
-    kick.currentTime = 0; // Rewind the audio to start allows me to play it multiple times while still playing
+    // kick.currentTime = 0; 
     kick.play();
 }
 kickButton.addEventListener('click', kickPlay, false);
@@ -22,7 +22,7 @@ kickButton.addEventListener('mouseover', kickPlay, false);
 
 // Clap
 let clapPlay = function (e) {
-    clap.currentTime = 0; // Rewind the audio to start allows me to play it multiple times while still playing
+    // clap.currentTime = 0; 
     clap.play();
 }
 clapButton.addEventListener('click', clapPlay, false);
@@ -30,7 +30,7 @@ clapButton.addEventListener('mouseover', clapPlay, false);
 
 // Hi-hat
 let hihatPlay = function (e) {
-    hihat.currentTime = 0; // Rewind the audio to start allows me to play it multiple times while still playing
+    // hihat.currentTime = 0; 
     hihat.play();
 }
 hihatButton.addEventListener('click', hihatPlay, false);
@@ -38,7 +38,7 @@ hihatButton.addEventListener('mouseover', hihatPlay, false);
 
 // Snare
 let snarePlay = function (e) {
-    snare.currentTime = 0; // Rewind the audio to start allows me to play it multiple times while still playing
+    // snare.currentTime = 0; 
     snare.play();
 }
 snareButton.addEventListener('click', snarePlay, false);
@@ -46,7 +46,7 @@ snareButton.addEventListener('mouseover', snarePlay, false);
 
 // Conga
 let congaPlay = function (e) {
-    conga.currentTime = 0; // Rewind the audio to start allows me to play it multiple times while still playing
+    // conga.currentTime = 0;
     conga.play();
 }
 congaButton.addEventListener('click', congaPlay, false);
