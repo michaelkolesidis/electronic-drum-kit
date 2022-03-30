@@ -6,7 +6,19 @@
   
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f59a88ac-1e86-4717-9fda-77fbdf975ff4/deploy-status)](https://app.netlify.com/sites/electronic-drumkit-js/deploys)
 
+<br>
 
+<div align="center">
+  <h3>Made using GNU/Linux</h3>
+  <img src="https://gnulinuxgreece.github.io/gnu_linux.svg" style="width: 280px;">
+</div>
+
+<br>
+<br>
+                                                                   
+<div align="center">
+  <a href="https://endsoftwarepatents.org/innovating-without-patents"><img style="height: 120px;" src="https://static.fsf.org/nosvn/esp/logos/innovating-without-patents.svg"></a>
+</div>
 
 
 
