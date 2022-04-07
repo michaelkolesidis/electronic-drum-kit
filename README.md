@@ -1,4 +1,4 @@
-<h1 align="center">An Electronic Drum Kit web application made with vanilla JavaScript and ❤️ <br><a href="https://electronic-drumkit-js.netlify.app/">Try me on Netlify!</a><h1>
+<h2 align="center">An Electronic Drum Kit web application made with vanilla JavaScript and ❤️ </h2>
   
 <div align="center">
   <img src="https://github.com/michaelkolesidis/electronic-drumkit/blob/main/electronic-drumkit-screenshot.png" /><br> 
