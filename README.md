@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/michaelkolesidis/electronic-drumkit/blob/main/electronic-drumkit-screenshot.png" /><br> 
+  <img src="https://github.com/michaelkolesidis/electronic-drumkit/blob/main/electronic-drumkit-screenshot.png" height="500px"/><br> 
 </div>
   
 <h3 align="center">An Electronic Drum Kit web application made with vanilla JavaScript and ❤️ </h3>  
@@ -21,6 +21,13 @@
 
 ## Description
 This was my first ever JavaScript project, and it shows. All code is written by myself from scratch.
+
+
+
+## License
+
+Copyright (c) 2022 Michael Kolesidis<br>
+Licensed under the [GNU General Public License v3.0](https://github.com/michaelkolesidis/webproject-script/blob/main/LICENSE).
 
 
 
