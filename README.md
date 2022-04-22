@@ -23,7 +23,7 @@
 
 
 ## Description
-This was my first ever JavaScript project, and it shows. All code is written by myself from scratch.
+This was my first ever JavaScript project, and it shows. All code is written by myself from scratch, while practising JavaScript events.
 
 
 
