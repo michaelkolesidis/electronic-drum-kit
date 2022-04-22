@@ -14,89 +14,96 @@ const congaButton = document.querySelector("#congaButton");
 
 // Kick
 let kickPlay = function (e) {
-    // kick.currentTime = 0; 
-    kick.play();
-}
-kickButton.addEventListener('click', kickPlay, false);
-kickButton.addEventListener('mouseover', kickPlay, false);
+  // kick.currentTime = 0;
+  kick.play();
+};
+kickButton.addEventListener("click", kickPlay, false);
+kickButton.addEventListener("mouseover", kickPlay, false);
 
 // Clap
 let clapPlay = function (e) {
-    // clap.currentTime = 0; 
-    clap.play();
-}
-clapButton.addEventListener('click', clapPlay, false);
-clapButton.addEventListener('mouseover', clapPlay, false);
+  // clap.currentTime = 0;
+  clap.play();
+};
+clapButton.addEventListener("click", clapPlay, false);
+clapButton.addEventListener("mouseover", clapPlay, false);
 
 // Hi-hat
 let hihatPlay = function (e) {
-    // hihat.currentTime = 0; 
-    hihat.play();
-}
-hihatButton.addEventListener('click', hihatPlay, false);
-hihatButton.addEventListener('mouseover', hihatPlay, false);
+  // hihat.currentTime = 0;
+  hihat.play();
+};
+hihatButton.addEventListener("click", hihatPlay, false);
+hihatButton.addEventListener("mouseover", hihatPlay, false);
 
 // Snare
 let snarePlay = function (e) {
-    // snare.currentTime = 0; 
-    snare.play();
-}
-snareButton.addEventListener('click', snarePlay, false);
-snareButton.addEventListener('mouseover', snarePlay, false);
+  // snare.currentTime = 0;
+  snare.play();
+};
+snareButton.addEventListener("click", snarePlay, false);
+snareButton.addEventListener("mouseover", snarePlay, false);
 
 // Conga
 let congaPlay = function (e) {
-    // conga.currentTime = 0;
-    conga.play();
-}
-congaButton.addEventListener('click', congaPlay, false);
-congaButton.addEventListener('mouseover', congaPlay, false);
-
+  // conga.currentTime = 0;
+  conga.play();
+};
+congaButton.addEventListener("click", congaPlay, false);
+congaButton.addEventListener("mouseover", congaPlay, false);
 
 // Add event listener on keydown: play sound and add shadow
-document.addEventListener('keydown', (event) => {
-    if (event.code === 'KeyA') {
-        kickPlay();
-        kickButton.style.boxShadow = "0 0 14px rgb(255, 255, 255)";
+document.addEventListener(
+  "keydown",
+  (event) => {
+    if (event.code === "KeyA") {
+      kickPlay();
+      kickButton.style.boxShadow = "0 0 14px rgb(255, 255, 255)";
     }
-    if (event.code === 'KeyS') {
-        clapPlay();
-        clapButton.style.boxShadow = "0 0 14px rgb(255, 255, 255)";
+    if (event.code === "KeyS") {
+      clapPlay();
+      clapButton.style.boxShadow = "0 0 14px rgb(255, 255, 255)";
     }
-    if (event.code === 'KeyD') {
-        hihatPlay();
-        hihatButton.style.boxShadow = "0 0 14px rgb(255, 255, 255)";
+    if (event.code === "KeyD") {
+      hihatPlay();
+      hihatButton.style.boxShadow = "0 0 14px rgb(255, 255, 255)";
     }
-    if (event.code === 'KeyF') {
-        snarePlay();
-        snareButton.style.boxShadow = "0 0 14px rgb(255, 255, 255)";
+    if (event.code === "KeyF") {
+      snarePlay();
+      snareButton.style.boxShadow = "0 0 14px rgb(255, 255, 255)";
     }
-    if (event.code === 'KeyG') {
-        congaPlay();
-        congaButton.style.boxShadow = "0 0 14px rgb(255, 255, 255)";
+    if (event.code === "KeyG") {
+      congaPlay();
+      congaButton.style.boxShadow = "0 0 14px rgb(255, 255, 255)";
     }
-}, false);
+  },
+  false
+);
 
 // Remove shadow on button release
-document.addEventListener('keyup', (event) => {
-    if (event.code === 'KeyA') {
-        kickPlay();
-        kickButton.style.boxShadow = "";
+document.addEventListener(
+  "keyup",
+  (event) => {
+    if (event.code === "KeyA") {
+      kickPlay();
+      kickButton.style.boxShadow = "";
     }
-    if (event.code === 'KeyS') {
-        clapPlay();
-        clapButton.style.boxShadow = "";
+    if (event.code === "KeyS") {
+      clapPlay();
+      clapButton.style.boxShadow = "";
     }
-    if (event.code === 'KeyD') {
-        hihatPlay();
-        hihatButton.style.boxShadow = "";
+    if (event.code === "KeyD") {
+      hihatPlay();
+      hihatButton.style.boxShadow = "";
     }
-    if (event.code === 'KeyF') {
-        snarePlay();
-        snareButton.style.boxShadow = "";
+    if (event.code === "KeyF") {
+      snarePlay();
+      snareButton.style.boxShadow = "";
     }
-    if (event.code === 'KeyG') {
-        congaPlay();
-        congaButton.style.boxShadow = "";
+    if (event.code === "KeyG") {
+      congaPlay();
+      congaButton.style.boxShadow = "";
     }
-}, false);
+  },
+  false
+);

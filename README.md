@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/michaelkolesidis/electronic-drumkit/blob/main/electronic-drumkit-screenshot.png" height="500px"/><br> 
+  <img src="./screenshot-01.png" height="500px"/><br> 
 </div>
   
 <h3 align="center">An Electronic Drum Kit web application made with vanilla JavaScript and ❤️ </h3>  
