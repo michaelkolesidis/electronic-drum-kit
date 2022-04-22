@@ -4,6 +4,9 @@
   
 <h3 align="center">An Electronic Drum Kit web application made with vanilla JavaScript and ❤️ </h3>  
 
+<a href="https://electronic-drumkit-js.netlify.app/"><h3 align="center">Try me!</h3></a>
+
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f59a88ac-1e86-4717-9fda-77fbdf975ff4/deploy-status)](https://app.netlify.com/sites/electronic-drumkit-js/deploys)
 
 
