@@ -1,10 +1,15 @@
-<h2 align="center">An Electronic Drum Kit web application made with vanilla JavaScript and ❤️ </h2>
-  
 <div align="center">
   <img src="https://github.com/michaelkolesidis/electronic-drumkit/blob/main/electronic-drumkit-screenshot.png" /><br> 
 </div>
   
+<h3 align="center">An Electronic Drum Kit web application made with vanilla JavaScript and ❤️ </h3>  
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f59a88ac-1e86-4717-9fda-77fbdf975ff4/deploy-status)](https://app.netlify.com/sites/electronic-drumkit-js/deploys)
+
+
+
+## Description
+
 
 
 
